@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+<!--
+*** Thanks for checking out the react-router-demo. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+***
+*** To avoid retyping too much info. Do a search and replace for the following:
+*** github_username (that is "windsuzu"), repo_name (that is "react-router-demo"), project_title, project_description
+-->
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- [![Issues][issues-shield]][issues-url] -->
+<!-- [![PR Welcome][pr-welcome-shield]](#contributing) -->
+[![Contributors][contributors-shield]][contributors-url]
+[![MIT License][license-shield]][license-url]
+[![Author][author-shield]][author-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://windsuzu.github.io/react-router-demo">
+    <img src="public/logo.png" alt="Ux icons created by Flowicon - Flaticon" height="100">
+  </a>
 
-### `npm start`
+  <h3 align="center">React Redux Demo</h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  <p align="center">
+    A comprehensive demo showing the use of react-router-dom v6.
+    <br />
+    <a href="https://windsuzu.github.io/react-router-demo">View Demo</a>
+    ·
+    <a href="https://github.com/windsuzu/react-router-demo/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/windsuzu/react-router-demo/issues">Request Feature</a>
+  </p>
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<details>
+<summary>Table of Contents</summary>
 
-### `npm test`
+* [About](#about)
+* [Examples](#examples)
+  * [✨ Synchronous Events](#-synchronous-events)
+  * [💫 Asynchronous Events](#-asynchronous-events)
+    * [⭐ branch-01-inside-components](#-branch-01-inside-components)
+    * [⭐⭐ branch-02-action-creator-thunk](#-branch-02-action-creator-thunk)
+    * [⭐⭐⭐ branch-03-createAsyncThunk](#-branch-03-createasyncthunk)
+* [Preview](#preview)
+* [License](#license)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+</details>
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- ABOUT THE PROJECT -->
+## About
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<table>
+<tr>
+<td>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Built With**
 
-### `npm run eject`
+* HTML5, CSS3, Javascript ES6
+* React.js + Redux
+* react-router-dom
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**[DEMO]** : https://windsuzu.github.io/react-router-demo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+</td>
+</tr>
+</table>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Examples
 
-## Learn More
+## Preview
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- 
+<p align="center">
+  <img src="images/1.png" width=68%>
+  <img src="images/2.png" width=22%>
+</p> -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
 
-### Code Splitting
+Distributed under the MIT License. See [LICENSE](https://github.com/windsuzu/react-router-demo/blob/main/LICENSE) for more information.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contact
 
-### Analyzing the Bundle Size
+Reach out to the maintainer at one of the following places:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* [GitHub discussions](https://github.com/windsuzu/react-router-demo/discussions)
+* The email which is located [in GitHub profile](https://github.com/windsuzu)
 
-### Making a Progressive Web App
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* [Maximilian Schwarzmüller](https://www.udemy.com/user/maximilian-schwarzmuller/)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[contributors-shield]: https://img.shields.io/github/contributors/windsuzu/react-router-demo.svg?style=for-the-badge
+[contributors-url]: https://github.com/windsuzu/react-router-demo/graphs/contributors
+[issues-shield]: https://img.shields.io/github/issues/windsuzu/react-router-demo.svg?style=for-the-badge
+[issues-url]: https://github.com/windsuzu/react-router-demo/issues
+[license-shield]: https://img.shields.io/github/license/windsuzu/react-router-demo.svg?style=for-the-badge&label=license
+[license-url]: https://github.com/windsuzu/react-router-demo/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/windsuzu
+[pr-welcome-shield]: https://shields.io/badge/PRs-Welcome-ff69b4?style=for-the-badge
+[author-shield]: https://shields.io/badge/Made_with_%E2%9D%A4_by-windsuzu-F4A92F?style=for-the-badge
+[author-url]: https://github.com/windsuzu
