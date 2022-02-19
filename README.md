@@ -15,7 +15,6 @@
 [![Author][author-shield]][author-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -40,12 +39,17 @@
 <summary>Table of Contents</summary>
 
 * [About](#about)
+* [Difference between v5 and v6](#difference-between-v5-and-v6)
+  * [❤️ Browser Router](#️-browser-router)
+  * [❤️ Routes and Route Components](#️-routes-and-route-components)
+  * [❤️ Display Subroute](#️-display-subroute)
+  * [❤️ NavLink Active Status](#️-navlink-active-status)
+  * [❤️ useParams](#️-useparams)
+  * [❤️ Redirect => Navigate](#️-redirect--navigate)
+  * [❤️ Route inside Components](#️-route-inside-components)
+  * [🎆 Outlet (v6 only)](#-outlet-v6-only)
+  * [❤️ Imperative Navigation](#️-imperative-navigation)
 * [Examples](#examples)
-  * [✨ Synchronous Events](#-synchronous-events)
-  * [💫 Asynchronous Events](#-asynchronous-events)
-    * [⭐ branch-01-inside-components](#-branch-01-inside-components)
-    * [⭐⭐ branch-02-action-creator-thunk](#-branch-02-action-creator-thunk)
-    * [⭐⭐⭐ branch-03-createAsyncThunk](#-branch-03-createasyncthunk)
 * [Preview](#preview)
 * [License](#license)
 * [Contact](#contact)
@@ -85,6 +89,38 @@
   <img src="images/1.png" width=68%>
   <img src="images/2.png" width=22%>
 </p> -->
+
+---
+
+## Difference between v5 and v6
+
+### ❤️ Browser Router
+<img src="images/browser_router.png" height=150px>
+
+### ❤️ Routes and Route Components
+<img src="images/routes_route.png" height=250px>
+
+### ❤️ Display Subroute
+<img src="images/exact.png" height=200px>
+
+### ❤️ NavLink Active Status
+<img src="images/nav_link.png" height=220px>
+
+### ❤️ useParams
+<img src="images/use_params.png" height=120px>
+
+### ❤️ Redirect => Navigate
+<img src="images/redirect_navigate.png" height=180px>
+
+### ❤️ Route inside Components
+<img src="images/route_in_component_v5.png" width=42%>
+<img src="images/route_in_component_v6.png" width=48%>
+
+### 🎆 Outlet (v6 only)
+<img src="images/outlet.png" height=250px>
+
+### ❤️ Imperative Navigation
+<img src="images/navigate.png" height=250px>
 
 ## License
 
