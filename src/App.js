@@ -4,6 +4,7 @@ import QuoteDetail from "./pages/QuoteDetail";
 import NewQuote from "./pages/NewQuote";
 import Comment from "./components/comments/Comments";
 import Layout from "./components/layout/Layout";
+import NotFound from "./pages/NotFound";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                     />
                 </Route>
                 <Route path="/new-quote" element={<NewQuote />} />
+                <Route path="*" element={<NotFound />} />
             </Routes>
         </Layout>
     );
