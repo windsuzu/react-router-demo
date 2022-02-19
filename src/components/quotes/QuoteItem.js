@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Item = styled.li`
@@ -45,7 +46,9 @@ const QuoteItem = (props) => {
                 </Blockquote>
                 <FigCaption>{props.author}</FigCaption>
             </Figure>
-            <a className="btn">View Fullscreen</a>
+            <Link to={props.id} className="btn">
+                View Fullscreen
+            </Link>
         </Item>
     );
 };

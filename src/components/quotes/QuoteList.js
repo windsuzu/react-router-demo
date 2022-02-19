@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 import QuoteItem from "./QuoteItem";
 
-const StyledList = styled.ul`
+const List = styled.ul`
     list-style: none;
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ const StyledList = styled.ul`
 const QuoteList = (props) => {
     return (
         <>
-            <StyledList>
+            <List>
                 {props.quotes.map((quote) => (
                     <QuoteItem
                         key={quote.id}
@@ -21,7 +21,7 @@ const QuoteList = (props) => {
                         text={quote.text}
                     />
                 ))}
-            </StyledList>
+            </List>
         </>
     );
 };
