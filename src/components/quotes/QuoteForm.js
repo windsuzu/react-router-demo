@@ -14,25 +14,6 @@ const Loading = styled.div`
     align-items: center;
 `;
 
-const Sorting = styled.div`
-    padding-bottom: 1rem;
-    border-bottom: 3px solid #b2d4d4;
-    margin-bottom: 2rem;
-
-    button {
-        font: inherit;
-        color: teal;
-        border: 1px solid teal;
-        background-color: transparent;
-        border-radius: 4px;
-        padding: 0.5rem 1.5rem;
-        cursor: pointer;
-        &:hover {
-            background-color: #c2fafa;
-        }
-    }
-`;
-
 const Control = styled.div`
     margin-bottom: 0.5rem;
     label {
@@ -66,6 +47,8 @@ const Actions = styled.div`
 `;
 
 const QuoteForm = (props) => {
+    // optional: add Prompt to prevent unwanted route transitions
+
     const authorInputRef = useRef();
     const textInputRef = useRef();
 
