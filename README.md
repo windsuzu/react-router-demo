@@ -62,6 +62,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About
 
+這個專案主要展示如何使用 `react-router-dom@v6` 讓一個 SPA (Single-Page Application) 專案能夠自由控制 url 與頁面轉換。
+
+另外，下方的 [[Difference between v5 and v6]](#difference-between-v5-and-v6) 區塊也整理了 react-router-dom 的 v5 和 v6 差別。
+
 <table>
 <tr>
 <td>
@@ -70,7 +74,7 @@
 
 * HTML5, CSS3, Javascript ES6
 * React.js + Redux
-* react-router-dom
+* react-router-dom@v6
 
 **[DEMO]** : https://windsuzu.github.io/react-router-demo
 
@@ -82,13 +86,44 @@
 
 ## Examples
 
+### 🪃 Setup Routes
+
+* [setup `<BrowserRouter>`](https://github.com/windsuzu/react-router-demo/blob/main/src/index.js#L8-L10)
+* [setup `<Routes>` and `element`](https://github.com/windsuzu/react-router-demo/blob/main/src/App.js#L11-L17)
+* [setup NotFound page](https://github.com/windsuzu/react-router-demo/blob/main/src/App.js#L16)
+
+### ⚔️ Nested Routes
+
+* [setup route with `*`](https://github.com/windsuzu/react-router-demo/blob/main/src/App.js#L14)
+* [implement `<Routes>` in components](https://github.com/windsuzu/react-router-demo/blob/main/src/pages/QuoteDetail.js#L41-L53)
+
+### 🗡️ Using Links and NavLinks
+
+* [Link](https://github.com/windsuzu/react-router-demo/blob/main/src/components/quotes/QuoteItem.js#L63-L65)
+* [NavLink with `active style`](https://github.com/windsuzu/react-router-demo/blob/main/src/components/layout/MainNavigation.js#L57-L62)
+
+### 🛡️ Extracting URL Params (useLocation, useParams)
+
+* [use `url search params` to replace `states`](https://github.com/windsuzu/react-router-demo/blob/main/src/components/quotes/QuoteList.js#L33-L40)
+* [use `url params` to replace `props`](https://github.com/windsuzu/react-router-demo/blob/main/src/pages/QuoteDetail.js#L17-L21)
+
+### 🩸 Redirect, Navigation, Imperative Navigation
+
+* [use `<Navigate replace>` to redirect users](https://github.com/windsuzu/react-router-demo/blob/main/src/App.js#L12)
+* [use `useNavigate` to redirect users](https://github.com/windsuzu/react-router-demo/blob/main/src/pages/NewQuote.js#L9-L15)
+* [push `url` to change `states`](https://github.com/windsuzu/react-router-demo/blob/main/src/components/quotes/QuoteList.js#L42-L44)
+
 ## Preview
 
-<!-- 
+
 <p align="center">
-  <img src="images/1.png" width=68%>
-  <img src="images/2.png" width=22%>
-</p> -->
+  <img src="images/screenshots/web-1.png" width=68%>
+  <img src="images/screenshots/phone-1.png" width=22%>
+  <img src="images/screenshots/web-2.png" width=68%>
+  <img src="images/screenshots/phone-2.png" width=22%>
+  <img src="images/screenshots/web-3.png" width=68%>
+  <img src="images/screenshots/phone-3.png" width=22%>
+</p>
 
 ---
 
