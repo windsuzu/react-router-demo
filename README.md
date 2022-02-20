@@ -39,6 +39,13 @@
 <summary>Table of Contents</summary>
 
 * [About](#about)
+* [Examples](#examples)
+  * [🪃 Setup Routes](#-setup-routes)
+  * [⚔️ Nested Routes](#️-nested-routes)
+  * [🗡️ Using Links and NavLinks](#️-using-links-and-navlinks)
+  * [🛡️ Extracting URL Params (useLocation, useParams)](#️-extracting-url-params-uselocation-useparams)
+  * [🩸 Redirect, Navigation, Imperative Navigation](#-redirect-navigation-imperative-navigation)
+* [Preview](#preview)
 * [Difference between v5 and v6](#difference-between-v5-and-v6)
   * [❤️ Browser Router](#️-browser-router)
   * [❤️ Routes and Route Components](#️-routes-and-route-components)
@@ -49,8 +56,6 @@
   * [❤️ Route inside Components](#️-route-inside-components)
   * [🎆 Outlet (v6 only)](#-outlet-v6-only)
   * [❤️ Imperative Navigation](#️-imperative-navigation)
-* [Examples](#examples)
-* [Preview](#preview)
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -62,9 +67,15 @@
 <!-- ABOUT THE PROJECT -->
 ## About
 
-這個專案主要展示如何使用 `react-router-dom@v6` 讓一個 SPA (Single-Page Application) 專案能夠自由控制 url 與頁面轉換。
+這個專案主要展示如何使用 `react-router-dom@v6` 讓一個 SPA (Single-Page Application) 專案能夠自由控制 url 與頁面轉換。內容包含: 
 
-另外，下方的 [[Difference between v5 and v6]](#difference-between-v5-and-v6) 區塊也整理了 react-router-dom 的 v5 和 v6 差別。
+1. 建立 Routes 邏輯
+2. 建立 Link 或含有 active 風格的 NavLink
+3. 在 component 中建立 nested routes 
+4. 利用 useParams 與 useLocation、URLSearchParams 存取 url 資訊
+5. 利用 navigate 與 useNavigate 來改變 url，做到 replace 或 push 頁面，甚至使用 url 取代 state 功能
+
+❤️ 另外，下方的 [[Difference between v5 and v6]](#difference-between-v5-and-v6) 區塊也整理了 react-router-dom 的 v5 和 v6 差別。
 
 <table>
 <tr>
@@ -73,7 +84,8 @@
 **Built With**
 
 * HTML5, CSS3, Javascript ES6
-* React.js + Redux
+* React.js
+* styled-components
 * react-router-dom@v6
 
 **[DEMO]** : https://windsuzu.github.io/react-router-demo
