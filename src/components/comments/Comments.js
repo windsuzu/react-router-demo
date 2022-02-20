@@ -13,6 +13,15 @@ const Section = styled.section`
     button {
         font-size: 1.25rem;
     }
+
+    @media (max-width: 768px) {
+        h2 {
+            font-size: 1.25rem;
+        }
+        button {
+            font-size: 1rem;
+        }
+    }
 `;
 
 const Comments = () => {

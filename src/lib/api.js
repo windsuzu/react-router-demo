@@ -91,7 +91,7 @@ export async function getAllComments(quoteId) {
             ...data[key],
         };
 
-        transformedComments.push(commentObj);
+        transformedComments.unshift(commentObj);
     }
 
     return transformedComments;

@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
-const StyledHeader = styled.header`
+const Header = styled.header`
     width: 100%;
     height: 5rem;
     display: flex;
@@ -15,9 +15,13 @@ const StyledHeader = styled.header`
 const Logo = styled.div`
     font-size: 2rem;
     color: white;
+
+    @media (max-width: 768px) {
+        font-size: 1.2rem;
+    }
 `;
 
-const StyledNav = styled.nav`
+const Nav = styled.nav`
     ul {
         list-style: none;
         display: flex;
@@ -26,6 +30,10 @@ const StyledNav = styled.nav`
         li {
             margin-left: 1.5rem;
             font-size: 1.25rem;
+
+            @media (max-width: 768px) {
+                font-size: 0.9rem;
+            }
         }
         a {
             text-decoration: none;
@@ -41,9 +49,9 @@ const StyledNav = styled.nav`
 
 const MainNavigation = () => {
     return (
-        <StyledHeader>
+        <Header>
             <Logo>Great Quotes</Logo>
-            <StyledNav>
+            <Nav>
                 <ul>
                     <li>
                         <NavLink
@@ -62,8 +70,8 @@ const MainNavigation = () => {
                         </NavLink>
                     </li>
                 </ul>
-            </StyledNav>
-        </StyledHeader>
+            </Nav>
+        </Header>
     );
 };
 

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Link, Outlet, useParams, Routes, Route } from "react-router-dom";
+import { Link, useParams, Routes, Route } from "react-router-dom";
 import HighlightedQuote from "../components/quotes/HighlightedQuote";
 import Comments from "../components/comments/Comments";
 import useHttp from "../hooks/use-http";

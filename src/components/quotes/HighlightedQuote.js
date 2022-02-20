@@ -11,6 +11,10 @@ const Figure = styled.figure`
 
     p {
         font-size: 2.5rem;
+
+        @media (max-width: 768px) {
+            font-size: 1.5rem;
+        }
     }
 `;
 
@@ -19,6 +23,10 @@ const FigCaption = styled.figcaption`
     font-size: 1.5rem;
     text-align: right;
     color: #a1e0e0;
+
+    @media (max-width: 768px) {
+        font-size: 1.15rem;
+    }
 `;
 
 const HighlightedQuote = (props) => {

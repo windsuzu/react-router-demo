@@ -16,6 +16,20 @@ const Item = styled.li`
     p {
         margin: 0;
         margin-bottom: 0.25rem;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    @media (max-width: 768px) {
+        p {
+            font-size: 1rem;
+        }
+        .btn {
+            font-size: 0.9rem;
+            padding: 0.5rem 0.5rem;
+        }
     }
 `;
 
