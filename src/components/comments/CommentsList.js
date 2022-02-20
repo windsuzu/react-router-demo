@@ -1,14 +1,20 @@
-import CommentItem from './CommentItem';
-import classes from './CommentsList.module.css';
+import styled from "styled-components";
+import CommentItem from "./CommentItem";
+
+const List = styled.ul`
+    list-style: none;
+    margin: 2.5rem 0;
+    padding: 0;
+`;
 
 const CommentsList = (props) => {
-  return (
-    <ul className={classes.comments}>
-      {props.comments.map((comment) => (
-        <CommentItem key={comment.id} text={comment.text} />
-      ))}
-    </ul>
-  );
+    return (
+        <List>
+            {props.comments.map((comment) => (
+                <CommentItem key={comment.id} text={comment.text} />
+            ))}
+        </List>
+    );
 };
 
 export default CommentsList;

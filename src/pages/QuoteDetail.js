@@ -51,7 +51,6 @@ const QuoteDetail = () => {
                 />
                 <Route path="comments" element={<Comments />} />
             </Routes>
-            <Outlet />
         </>
     );
 };
