@@ -22,7 +22,7 @@
     <img src="public/logo.png" alt="Ux icons created by Flowicon - Flaticon" height="100">
   </a>
 
-  <h3 align="center">React Redux Demo</h3>
+  <h3 align="center">React Router Demo</h3>
 
   <p align="center">
     A comprehensive demo showing the use of react-router-dom v6.
